@@ -1,0 +1,32 @@
+{
+  "name": "bitirme-projesi-v2",
+  "version": "1.0.0",
+  "description": "IoT Project",
+  "main": "serverMqtt.js",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.0",
+    "monk": "^7.3.0",
+    "mqtt": "^4.1.0",
+    "package": "^1.0.1",
+    "serialport": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serverMqtt.js",
+    "dev": "nodemon serverMqtt.js"
+  },
+  "keywords": [
+    "iot",
+    "mqtt",
+    "mongo"
+  ],
+  "author": "Emre Erkorkmaz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmreErkorkmaz/bitirme-projesi-v2.git"
+  }
+}
